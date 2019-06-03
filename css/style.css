@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Saira');
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #d7d7c1;
+}
+#center_calc{
+  width: 225px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+form{
+  background-color: #f2f2f2;
+  padding:0px 9px 5px 9px;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.lcd{
+  margin: 20px 0px 30px 0px;
+  width: 192px;
+  height: 30px;
+  text-align: right;
+  border: 2px solid silver;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: large;
+  color: #fff;
+  background-color: #666464;
+  font-family: 'Saira', sans-serif;
+  padding-right: 5px;
+}
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  overflow: hidden;
+  color: #fff;
+  font-weight: bold;
+  background-color: #4d4d4d;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px #999;
+  margin: 0px 0px 10px 2px;
+  width: 45px;
+  height: 29px;
+}
+.btn:hover {background-color: #666464}
+
+.btn:active {
+  background-color: #3b3a30;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+  box-shadow: 0 0px;
+}
+.equal{
+  width: 95px;
+  border-radius: 7px;
+}
+.c{
+  background-color: orange;
+  background-color: #ff4d4d;
+}
